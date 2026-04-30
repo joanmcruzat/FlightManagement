@@ -1,0 +1,11 @@
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Domain\bin\Debug\net8.0\Flight.Domain.deps.json
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Domain\bin\Debug\net8.0\Flight.Domain.dll
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Domain\bin\Debug\net8.0\Flight.Domain.pdb
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Domain\obj\Debug\net8.0\Flight.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Domain\obj\Debug\net8.0\Flight.Domain.AssemblyInfoInputs.cache
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Domain\obj\Debug\net8.0\Flight.Domain.AssemblyInfo.cs
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Domain\obj\Debug\net8.0\Flight.Domain.csproj.CoreCompileInputs.cache
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Domain\obj\Debug\net8.0\Flight.Domain.dll
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Domain\obj\Debug\net8.0\refint\Flight.Domain.dll
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Domain\obj\Debug\net8.0\Flight.Domain.pdb
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Domain\obj\Debug\net8.0\ref\Flight.Domain.dll

@@ -1,0 +1,115 @@
+/* src/app/layout/header/header.component.css */
+
+.toolbar {
+    height: var(--header-height);
+    background: var(--bg-nav);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    box-shadow: var(--shadow);
+}
+
+.logo-icon {
+    font-size: 28px;
+    width: 28px;
+    height: 28px;
+    color: var(--accent-cyan);
+    animation: pulse 3s ease-in-out infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.brand-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, var(--accent-blue), var(--accent-cyan));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.1;
+}
+
+.tagline {
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #22c55e;
+    flex-shrink: 0;
+    animation: blink 2s ease-in-out infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.25;
+    }
+}
+
+/* ── Theme toggle button ── */
+.theme-toggle {
+    margin-left: 8px;
+    color: var(--text-muted) !important;
+    border: 1px solid var(--border);
+    border-radius: 8px !important;
+    width: 38px !important;
+    height: 38px !important;
+    transition:
+        color 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.theme-toggle:hover {
+    color: var(--accent-cyan) !important;
+    background: var(--accent-glow) !important;
+    border-color: var(--accent-cyan) !important;
+}

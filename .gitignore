@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Ignore build artifacts if needed
+backend/bin/
+backend/obj/
+frontend/node_modules/

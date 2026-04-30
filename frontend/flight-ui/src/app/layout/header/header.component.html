@@ -1,0 +1,21 @@
+<mat-toolbar class="toolbar">
+    <mat-icon class="logo-icon">flight_takeoff</mat-icon>
+    <div>
+        <div class="brand">Flight</div>
+        <div class="tagline">Operations Center</div>
+    </div>
+
+    <span class="spacer"></span>
+
+    <div class="status">
+        <span class="dot"></span>
+        System Live &nbsp;·&nbsp; {{ today | date:'EEE, MMM d · HH:mm' }}
+    </div>
+
+    <!-- ── Theme Toggle ── -->
+    <button mat-icon-button class="theme-toggle"
+        [matTooltip]="themeService.isDark() ? 'Switch to Light Mode' : 'Switch to Dark Mode'" (click)="toggleTheme()">
+        <mat-icon>{{ themeService.isDark() ? 'light_mode' : 'dark_mode' }}</mat-icon>
+    </button>
+
+</mat-toolbar>

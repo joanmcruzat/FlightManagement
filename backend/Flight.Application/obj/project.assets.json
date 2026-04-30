@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Flight.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Flight.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Flight.Domain.dll": {}
+        }
+      },
+      "Flight.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Flight.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Flight.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Flight.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Flight.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Flight.Domain/Flight.Domain.csproj",
+      "msbuildProject": "../Flight.Domain/Flight.Domain.csproj"
+    },
+    "Flight.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Flight.Infrastructure/Flight.Infrastructure.csproj",
+      "msbuildProject": "../Flight.Infrastructure/Flight.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Flight.Domain >= 1.0.0",
+      "Flight.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\joanm\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\Flight.Application.csproj",
+      "projectName": "Flight.Application",
+      "projectPath": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\Flight.Application.csproj",
+      "packagesPath": "C:\\Users\\joanm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\joanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Domain\\Flight.Domain.csproj": {
+              "projectPath": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Domain\\Flight.Domain.csproj"
+            },
+            "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Infrastructure\\Flight.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Infrastructure\\Flight.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

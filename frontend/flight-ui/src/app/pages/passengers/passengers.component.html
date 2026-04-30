@@ -1,0 +1,176 @@
+<div class="page-header">
+    <div class="page-title">
+        <mat-icon>people</mat-icon>
+        Passengers
+    </div>
+    <div class="page-subtitle">Manage passenger per flight</div>
+</div>
+
+<div class="form-card">
+    <div class="form-card-title">Add Passenger</div>
+
+    <form [formGroup]="form" (ngSubmit)="submit()">
+        <div class="form-row">
+
+            <mat-form-field appearance="outline" floatLabel="always">
+                <mat-label>Flight</mat-label>
+                <mat-select formControlName="flightNumber" (selectionChange)="onFlightChange($event.value)">
+                    <mat-option *ngFor="let f of flights" [value]="f.flightNumber">
+                        #{{ f.flightNumber }} — {{ f.destination }}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" floatLabel="always">
+                <mat-label>Passenger ID</mat-label>
+                <input matInput formControlName="passengerId">
+                @if (form.get('passengerId')?.hasError('required') && (form.get('passengerId')?.touched || submitted)) {
+                    <mat-error>Required</mat-error>
+                }
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" floatLabel="always">
+                <mat-label>First Name</mat-label>
+                <input matInput formControlName="firstName">
+                @if (form.get('firstName')?.hasError('required') && (form.get('firstName')?.touched || submitted)) {
+                    <mat-error>Required</mat-error>
+                }
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" floatLabel="always">
+                <mat-label>Last Name</mat-label>
+                <input matInput formControlName="lastName">
+                @if (form.get('lastName')?.hasError('required') && (form.get('lastName')?.touched || submitted)) {
+                    <mat-error>Required</mat-error>
+                }
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" floatLabel="always">
+                <mat-label>Class</mat-label>
+                <mat-select formControlName="class">
+                    <mat-option value="First">First</mat-option>
+                    <mat-option value="Business">Business</mat-option>
+                    <mat-option value="Economy">Economy</mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" floatLabel="always">
+                <mat-label>Ticket Price</mat-label>
+                <input matInput formControlName="ticketPrice" type="number">
+                @if (form.get('ticketPrice')?.hasError('required') && (form.get('ticketPrice')?.touched || submitted)) {
+                    <mat-error>Required</mat-error>
+                }
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" floatLabel="always">
+                <mat-label>Number of Bags</mat-label>
+                <input matInput formControlName="numberOfBags" type="number" step="1">
+                @if (form.get('numberOfBags')?.hasError('required') && (form.get('numberOfBags')?.touched || submitted)) {
+                    <mat-error>Required</mat-error>
+                }
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" floatLabel="always">
+                <mat-label>Total Baggage Weight</mat-label>
+                <input matInput formControlName="totalBaggageWeight" type="number" step="0.01">
+                @if (form.get('totalBaggageWeight')?.hasError('required') && (form.get('totalBaggageWeight')?.touched || submitted)) {
+                    <mat-error>Required</mat-error>
+                }
+            </mat-form-field>
+
+            <button mat-flat-button color="primary" type="submit" class="submit-btn">
+                <mat-icon>person_add</mat-icon>&nbsp;Add
+            </button>
+
+        </div>
+    </form>
+</div>
+
+<div class="table-card">
+    @if(loading){
+    <mat-progress-bar mode="indeterminate" color="primary" />
+    }
+    <div class="table-toolbar">
+        <div>
+            <span class="table-label">Passenger</span>
+            <span class="table-count">{{ dataSource.data.length }}</span>
+        </div>
+        <mat-form-field appearance="outline" class="filter-field">
+            <mat-label>Search passengers…</mat-label>
+            <input matInput (input)="applyFilter($event)">
+            <mat-icon matSuffix>search</mat-icon>
+        </mat-form-field>
+    </div>
+
+    <mat-table [dataSource]="dataSource" matSort>
+
+        <!-- Passenger ID -->
+        <ng-container matColumnDef="passengerId">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>ID</mat-header-cell>
+            <mat-cell *matCellDef="let p">
+                <span class="passenger-id">{{ p.passengerId }}</span>
+            </mat-cell>
+        </ng-container>
+
+        <!-- First Name -->
+        <ng-container matColumnDef="firstName">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>First Name</mat-header-cell>
+            <mat-cell *matCellDef="let p">{{ p.firstName }}</mat-cell>
+        </ng-container>
+
+        <!-- Last Name -->
+        <ng-container matColumnDef="lastName">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>Last Name</mat-header-cell>
+            <mat-cell *matCellDef="let p">{{ p.lastName }}</mat-cell>
+        </ng-container>
+
+        <!-- Class -->
+        <ng-container matColumnDef="class">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>Class</mat-header-cell>
+            <mat-cell *matCellDef="let p">
+                <span class="class-chip" [ngClass]="'class-' + p.class">{{ p.class }}</span>
+            </mat-cell>
+        </ng-container>
+
+        <!-- Flight -->
+        <ng-container matColumnDef="flightNumber">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>Flight</mat-header-cell>
+            <mat-cell *matCellDef="let p">
+                <span class="flight-ref">#{{ selectedFlight }}</span>
+            </mat-cell>
+        </ng-container>
+
+         <!-- Ticket Price -->
+        <ng-container matColumnDef="ticketPrice">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>Ticket Price</mat-header-cell>
+            <mat-cell *matCellDef="let p">${{ p.ticketPrice | number:'1.2-2' }}</mat-cell>
+        </ng-container>
+
+         <!-- Number of Bags -->
+        <ng-container matColumnDef="numberOfBags">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>Number of Bags</mat-header-cell>
+            <mat-cell *matCellDef="let p">{{ p.numberOfBags }}</mat-cell>
+        </ng-container>
+
+         <!-- Total Baggage Weight -->
+        <ng-container matColumnDef="totalBaggageWeight">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>Total Baggage Weight</mat-header-cell>
+            <mat-cell *matCellDef="let p">{{ p.totalBaggageWeight | number:'1.2-2' }} kg</mat-cell>
+        </ng-container>
+
+        <mat-header-row *matHeaderRowDef="displayedColumns" />
+        <mat-row *matRowDef="let row; columns: displayedColumns;" />
+
+        <!-- Empty state -->
+        <tr class="mat-row no-data-cell" *matNoDataRow>
+            <td class="mat-cell no-data-cell" [attr.colspan]="displayedColumns.length">
+                <mat-icon>airline_seat_recline_normal</mat-icon>
+                <p>{{ selectedFlight ? 'No passengers on this flight' : 'Select a flight to view passengers.' }}</p>
+            </td>
+        </tr>
+
+    </mat-table>
+
+    <mat-paginator [pageSizeOptions]="[10, 25, 50]" showFirstLastButtons />
+
+</div>

@@ -1,0 +1,262 @@
+/* src/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=DM+Sans:wght@300;400;500&display=swap');
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* ── Dark mode (default) ── */
+:root,
+:root.dark {
+  --bg-dark:     #0b0e17;
+  --bg-card:     #131929;
+  --bg-nav:      #0f1522;
+  --accent-blue: #3b82f6;
+  --accent-cyan: #06b6d4;
+  --accent-glow: rgba(59, 130, 246, 0.25);
+  --text-primary:#e8eaf0;
+  --text-muted:  #6b7a99;
+  --border:      rgba(255, 255, 255, 0.07);
+  --shadow:      0 4px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* ── Light mode ── */
+:root.light {
+  --bg-dark:     #f0f4fb;
+  --bg-card:     #ffffff;
+  --bg-nav:      #ffffff;
+  --accent-blue: #2563eb;
+  --accent-cyan: #0891b2;
+  --accent-glow: rgba(37, 99, 235, 0.10);
+  --text-primary:#0f172a;
+  --text-muted:  #64748b;
+  --border:      rgba(0, 0, 0, 0.09);
+  --shadow:      0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* ── Shared fixed values ── */
+:root {
+  --header-height: 64px;
+  --nav-width:     220px;
+  --radius:        10px;
+}
+
+/* ── Smooth theme transition ── */
+*, *::before, *::after {
+  transition:
+    background-color 0.25s ease,
+    border-color     0.25s ease,
+    color            0.2s  ease,
+    box-shadow       0.25s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+}
+
+/* ── Angular Material overrides ── */
+
+.mat-mdc-form-field .mdc-text-field {
+  background: rgba(128, 128, 128, 0.06) !important;
+  border-radius: var(--radius) !important;
+}
+
+.mat-mdc-form-field .mdc-text-field--outlined .mdc-notched-outline__leading,
+.mat-mdc-form-field .mdc-text-field--outlined .mdc-notched-outline__notch,
+.mat-mdc-form-field .mdc-text-field--outlined .mdc-notched-outline__trailing {
+  border-color: var(--border) !important;
+}
+
+.mat-mdc-form-field.mat-focused .mdc-notched-outline__leading,
+.mat-mdc-form-field.mat-focused .mdc-notched-outline__notch,
+.mat-mdc-form-field.mat-focused .mdc-notched-outline__trailing {
+  border-color: var(--accent-blue) !important;
+}
+
+input.mat-mdc-input-element,
+.mat-mdc-select-value {
+  color: var(--text-primary) !important;
+}
+
+.mat-mdc-form-field-label,
+.mat-mdc-floating-label {
+  color: var(--text-muted) !important;
+}
+
+.mat-mdc-table {
+  background: transparent !important;
+}
+
+.mat-mdc-header-cell {
+  color: var(--text-muted) !important;
+  font-family: 'Rajdhani', sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  font-size: 11px !important;
+  border-bottom: 1px solid var(--border) !important;
+  background: var(--bg-dark) !important;
+}
+
+.mat-mdc-cell {
+  color: var(--text-primary) !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+
+.mat-mdc-row:hover .mat-mdc-cell {
+  background: var(--accent-glow) !important;
+}
+
+.mat-mdc-paginator, .mat-mdc-paginator-range-actions .mat-mdc-paginator-range-label, div.mat-mdc-select-panel, .mdc-list-item__primary-text{
+    background: var(--bg-card) !important;
+    color: var(--text-muted) !important;
+}
+input.mat-mdc-input-element, .mat-mdc-select-value {
+    color: var(--text-primary) !important;
+    background: transparent !important;
+
+}
+svg {
+  fill: var(--text-primary) !important;
+}
+/* Snackbar */
+.snack-success .mdc-snackbar__surface { background: #166534 !important; }
+.snack-error   .mdc-snackbar__surface { background: #7f1d1d !important; }
+
+/* ── Shared utility classes ── */
+
+.page-header { margin-bottom: 28px; }
+
+.page-title {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.page-title mat-icon {
+  color: var(--accent-cyan);
+  font-size: 28px;
+  width: 28px;
+  height: 28px;
+}
+
+.page-subtitle {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.form-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 28px;
+  box-shadow: var(--shadow);
+}
+
+.form-card-title {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.form-row mat-form-field {
+  flex: 1;
+  min-width: 150px;
+}
+
+.table-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.table-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.table-label {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.table-count {
+  background: var(--accent-blue);
+  color: #fff;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+
+.filter-field { width: 240px; }
+
+.empty-state {
+  text-align: center;
+  padding: 48px;
+  color: var(--text-muted);
+}
+
+.empty-state mat-icon {
+  font-size: 48px;
+  width: 48px;
+  height: 48px;
+  opacity: 0.3;
+  margin-bottom: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.class-chip {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 12px;
+  letter-spacing: 0.06em;
+}
+
+
+.class-First    { background: rgba(250, 204, 21,  0.15); color: #d97706; }
+.class-Business { background: rgba(59,  130, 246, 0.15); color: #2563eb; }
+.class-Economy  { background: rgba(107, 114, 128, 0.15); color: #64748b; }
+
+/* Scrollbar */
+::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }

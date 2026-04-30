@@ -1,0 +1,31 @@
+<app-header />
+
+<div class="layout">
+
+    <!-- ── Sidebar Navigation ── -->
+    <nav class="sidenav">
+
+        <div class="nav-section-label">Operations</div>
+
+        <a class="nav-link" routerLink="/flights" routerLinkActive="active">
+            <mat-icon>flight</mat-icon>
+            Flights
+        </a>
+
+        <a class="nav-link" routerLink="/passengers" routerLinkActive="active">
+            <mat-icon>people</mat-icon>
+            Passengers
+        </a>
+
+        <div class="nav-spacer"></div>
+
+
+
+    </nav>
+
+    <!-- ── Page Content ── -->
+    <main class="content">
+        <router-outlet />
+    </main>
+
+</div>

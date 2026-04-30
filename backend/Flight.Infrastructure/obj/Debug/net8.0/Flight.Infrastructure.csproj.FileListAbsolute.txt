@@ -1,0 +1,17 @@
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\bin\Debug\net8.0\Flight.Infrastructure.deps.json
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\bin\Debug\net8.0\Flight.Infrastructure.runtimeconfig.json
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\bin\Debug\net8.0\Flight.Infrastructure.dll
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\bin\Debug\net8.0\Flight.Infrastructure.pdb
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\bin\Debug\net8.0\Flight.Domain.dll
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\bin\Debug\net8.0\Flight.Domain.pdb
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\obj\Debug\net8.0\Flight.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\obj\Debug\net8.0\Flight.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\obj\Debug\net8.0\Flight.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\obj\Debug\net8.0\Flight.Infrastructure.AssemblyInfo.cs
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\obj\Debug\net8.0\Flight.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\obj\Debug\net8.0\Flight.I.A9413760.Up2Date
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\obj\Debug\net8.0\Flight.Infrastructure.dll
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\obj\Debug\net8.0\refint\Flight.Infrastructure.dll
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\obj\Debug\net8.0\Flight.Infrastructure.pdb
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\obj\Debug\net8.0\Flight.Infrastructure.genruntimeconfig.cache
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Infrastructure\obj\Debug\net8.0\ref\Flight.Infrastructure.dll

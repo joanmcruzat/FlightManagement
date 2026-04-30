@@ -1,0 +1,55 @@
+.submit-btn {
+  height: 56px;
+  padding: 0 24px;
+  border-radius: 8px !important;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.passenger-id {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--accent-cyan);
+}
+
+.flight-ref {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.btn-remove {
+  color: var(--text-muted) !important;
+  transition: color 0.15s ease;
+}
+
+.btn-remove:hover {
+  color: #ef4444 !important;
+}
+
+.no-data-cell {
+  padding: 0 !important;
+  border-bottom: none !important;
+  width: 100%;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 220px;
+  color: var(--text-muted);
+}
+
+.no-data-cell mat-icon {
+  font-size: 52px;
+  width: 52px;
+  height: 52px;
+  opacity: 0.25;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.no-data-cell p {
+  font-size: 14px;
+  color: var(--text-muted);
+}

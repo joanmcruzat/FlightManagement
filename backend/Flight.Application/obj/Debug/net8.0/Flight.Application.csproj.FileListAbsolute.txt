@@ -1,0 +1,17 @@
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\bin\Debug\net8.0\Flight.Application.deps.json
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\bin\Debug\net8.0\Flight.Application.dll
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\bin\Debug\net8.0\Flight.Application.pdb
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\bin\Debug\net8.0\Flight.Domain.dll
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\bin\Debug\net8.0\Flight.Infrastructure.dll
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\bin\Debug\net8.0\Flight.Domain.pdb
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\bin\Debug\net8.0\Flight.Infrastructure.pdb
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\obj\Debug\net8.0\Flight.Application.csproj.AssemblyReference.cache
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\obj\Debug\net8.0\Flight.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\obj\Debug\net8.0\Flight.Application.AssemblyInfoInputs.cache
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\obj\Debug\net8.0\Flight.Application.AssemblyInfo.cs
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\obj\Debug\net8.0\Flight.Application.csproj.CoreCompileInputs.cache
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\obj\Debug\net8.0\Flight.A.C6DE82B5.Up2Date
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\obj\Debug\net8.0\Flight.Application.dll
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\obj\Debug\net8.0\refint\Flight.Application.dll
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\obj\Debug\net8.0\Flight.Application.pdb
+C:\Users\joanm\source\repos\FlightManagement\backend\Flight.Application\obj\Debug\net8.0\ref\Flight.Application.dll

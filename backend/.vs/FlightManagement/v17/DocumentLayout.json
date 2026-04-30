@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F69F86-DF12-460D-A27B-8B4F0905BFE5}|Flight.API\\Flight.API.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A9F69F86-DF12-460D-A27B-8B4F0905BFE5}|Flight.API\\Flight.API.csproj|solutionrelative:flight.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.application\\services\\flightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|solutionrelative:flight.application\\services\\flightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F69F86-DF12-460D-A27B-8B4F0905BFE5}|Flight.API\\Flight.API.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.api\\controllers\\passengerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9F69F86-DF12-460D-A27B-8B4F0905BFE5}|Flight.API\\Flight.API.csproj|solutionrelative:flight.api\\controllers\\passengerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F69F86-DF12-460D-A27B-8B4F0905BFE5}|Flight.API\\Flight.API.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.api\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9F69F86-DF12-460D-A27B-8B4F0905BFE5}|Flight.API\\Flight.API.csproj|solutionrelative:flight.api\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.application\\dtos\\addpassengerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|solutionrelative:flight.application\\dtos\\addpassengerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.application\\interfaces\\iflightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|solutionrelative:flight.application\\interfaces\\iflightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8BECCD-E1BA-4803-9359-BFC6DCC263FA}|Flight.Infrastructure\\Flight.Infrastructure.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.infrastructure\\data\\inmemorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8BECCD-E1BA-4803-9359-BFC6DCC263FA}|Flight.Infrastructure\\Flight.Infrastructure.csproj|solutionrelative:flight.infrastructure\\data\\inmemorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD7D8C4-BEAE-46E2-9CAB-195421B5FBDF}|Flight.Domain\\Flight.Domain.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.domain\\models\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD7D8C4-BEAE-46E2-9CAB-195421B5FBDF}|Flight.Domain\\Flight.Domain.csproj|solutionrelative:flight.domain\\models\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.application\\dtos\\addflightrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|solutionrelative:flight.application\\dtos\\addflightrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.application\\dtos\\passengerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|solutionrelative:flight.application\\dtos\\passengerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F69F86-DF12-460D-A27B-8B4F0905BFE5}|Flight.API\\Flight.API.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9F69F86-DF12-460D-A27B-8B4F0905BFE5}|Flight.API\\Flight.API.csproj|solutionrelative:flight.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD7D8C4-BEAE-46E2-9CAB-195421B5FBDF}|Flight.Domain\\Flight.Domain.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.domain\\models\\flightdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD7D8C4-BEAE-46E2-9CAB-195421B5FBDF}|Flight.Domain\\Flight.Domain.csproj|solutionrelative:flight.domain\\models\\flightdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F69F86-DF12-460D-A27B-8B4F0905BFE5}|Flight.API\\Flight.API.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.api\\flight.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A9F69F86-DF12-460D-A27B-8B4F0905BFE5}|Flight.API\\Flight.API.csproj|solutionrelative:flight.api\\flight.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8BECCD-E1BA-4803-9359-BFC6DCC263FA}|Flight.Infrastructure\\Flight.Infrastructure.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.infrastructure\\flight.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F8BECCD-E1BA-4803-9359-BFC6DCC263FA}|Flight.Infrastructure\\Flight.Infrastructure.csproj|solutionrelative:flight.infrastructure\\flight.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.application\\flight.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|solutionrelative:flight.application\\flight.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD7D8C4-BEAE-46E2-9CAB-195421B5FBDF}|Flight.Domain\\Flight.Domain.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.domain\\flight.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FBD7D8C4-BEAE-46E2-9CAB-195421B5FBDF}|Flight.Domain\\Flight.Domain.csproj|solutionrelative:flight.domain\\flight.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.application\\exceptions\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D2C82E-7A41-4A5D-8D5B-AB076BA1C493}|Flight.Application\\Flight.Application.csproj|solutionrelative:flight.application\\exceptions\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD7D8C4-BEAE-46E2-9CAB-195421B5FBDF}|Flight.Domain\\Flight.Domain.csproj|c:\\users\\joanm\\source\\repos\\flightmanagement\\backend\\flight.domain\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD7D8C4-BEAE-46E2-9CAB-195421B5FBDF}|Flight.Domain\\Flight.Domain.csproj|solutionrelative:flight.domain\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Flight.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Flight.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-30T16:24:59.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Flight.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Infrastructure\\Flight.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Flight.Infrastructure\\Flight.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Infrastructure\\Flight.Infrastructure.csproj",
+              "RelativeToolTip": "Flight.Infrastructure\\Flight.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-29T13:14:43.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InMemoryData.cs",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Infrastructure\\Data\\InMemoryData.cs",
+              "RelativeDocumentMoniker": "Flight.Infrastructure\\Data\\InMemoryData.cs",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Infrastructure\\Data\\InMemoryData.cs",
+              "RelativeToolTip": "Flight.Infrastructure\\Data\\InMemoryData.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:46:55.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.API\\Program.cs",
+              "RelativeDocumentMoniker": "Flight.API\\Program.cs",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.API\\Program.cs",
+              "RelativeToolTip": "Flight.API\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T18:55:58.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApiException.cs",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\Exceptions\\ApiException.cs",
+              "RelativeDocumentMoniker": "Flight.Application\\Exceptions\\ApiException.cs",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\Exceptions\\ApiException.cs",
+              "RelativeToolTip": "Flight.Application\\Exceptions\\ApiException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T18:20:56.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Flight.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\Flight.Application.csproj",
+              "RelativeDocumentMoniker": "Flight.Application\\Flight.Application.csproj",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\Flight.Application.csproj",
+              "RelativeToolTip": "Flight.Application\\Flight.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-28T18:20:15.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Flight.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Domain\\Flight.Domain.csproj",
+              "RelativeDocumentMoniker": "Flight.Domain\\Flight.Domain.csproj",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Domain\\Flight.Domain.csproj",
+              "RelativeToolTip": "Flight.Domain\\Flight.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-28T18:02:22.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Flight.API.csproj",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.API\\Flight.API.csproj",
+              "RelativeDocumentMoniker": "Flight.API\\Flight.API.csproj",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.API\\Flight.API.csproj",
+              "RelativeToolTip": "Flight.API\\Flight.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-28T18:00:24.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FlightService.cs",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\Services\\FlightService.cs",
+              "RelativeDocumentMoniker": "Flight.Application\\Services\\FlightService.cs",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\Services\\FlightService.cs",
+              "RelativeToolTip": "Flight.Application\\Services\\FlightService.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwD0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T17:35:20.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Passenger.cs",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Domain\\Models\\Passenger.cs",
+              "RelativeDocumentMoniker": "Flight.Domain\\Models\\Passenger.cs",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Domain\\Models\\Passenger.cs",
+              "RelativeToolTip": "Flight.Domain\\Models\\Passenger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T17:33:16.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FlightData.cs",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Domain\\Models\\FlightData.cs",
+              "RelativeDocumentMoniker": "Flight.Domain\\Models\\FlightData.cs",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Domain\\Models\\FlightData.cs",
+              "RelativeToolTip": "Flight.Domain\\Models\\FlightData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T17:32:08.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Domain\\Models\\Enums.cs",
+              "RelativeDocumentMoniker": "Flight.Domain\\Models\\Enums.cs",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Domain\\Models\\Enums.cs",
+              "RelativeToolTip": "Flight.Domain\\Models\\Enums.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T17:31:11.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PassengersController.cs",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.API\\Controllers\\PassengersController.cs",
+              "RelativeDocumentMoniker": "Flight.API\\Controllers\\PassengersController.cs",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.API\\Controllers\\PassengersController.cs",
+              "RelativeToolTip": "Flight.API\\Controllers\\PassengersController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T17:30:18.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FlightsController.cs",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.API\\Controllers\\FlightsController.cs",
+              "RelativeDocumentMoniker": "Flight.API\\Controllers\\FlightsController.cs",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.API\\Controllers\\FlightsController.cs",
+              "RelativeToolTip": "Flight.API\\Controllers\\FlightsController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAwwCQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T17:22:34.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddFlightRequest.cs",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\DTOs\\AddFlightRequest.cs",
+              "RelativeDocumentMoniker": "Flight.Application\\DTOs\\AddFlightRequest.cs",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\DTOs\\AddFlightRequest.cs",
+              "RelativeToolTip": "Flight.Application\\DTOs\\AddFlightRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T17:16:48.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PassengerResponse.cs",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\DTOs\\PassengerResponse.cs",
+              "RelativeDocumentMoniker": "Flight.Application\\DTOs\\PassengerResponse.cs",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\DTOs\\PassengerResponse.cs",
+              "RelativeToolTip": "Flight.Application\\DTOs\\PassengerResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T17:16:36.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddPassengerRequest.cs",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\DTOs\\AddPassengerRequest.cs",
+              "RelativeDocumentMoniker": "Flight.Application\\DTOs\\AddPassengerRequest.cs",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\DTOs\\AddPassengerRequest.cs",
+              "RelativeToolTip": "Flight.Application\\DTOs\\AddPassengerRequest.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T17:12:44.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFlightService.cs",
+              "DocumentMoniker": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\Interfaces\\IFlightService.cs",
+              "RelativeDocumentMoniker": "Flight.Application\\Interfaces\\IFlightService.cs",
+              "ToolTip": "C:\\Users\\joanm\\source\\repos\\FlightManagement\\backend\\Flight.Application\\Interfaces\\IFlightService.cs",
+              "RelativeToolTip": "Flight.Application\\Interfaces\\IFlightService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T17:10:01.925Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
