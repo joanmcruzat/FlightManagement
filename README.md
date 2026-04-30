@@ -52,7 +52,7 @@ This project allows users to manage flights, view flight summaries, and add pass
 1. Open a terminal at `backend/Flight.API`
 2. Run:
    ```bash
-   dotnet run
+   dotnet run --launch-profile https
    ```
 3. The backend will start and expose the API at `https://localhost:7221;` and `http://localhost:5094` by default.
 4. Swagger UI is available at `https://localhost:7221/swagger` when running in the Development environment.
